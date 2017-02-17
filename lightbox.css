@@ -1,0 +1,28 @@
+body,
+html {
+	height: auto;
+}
+
+body {
+	-ms-overflow-y: hidden;
+	    overflow-y: hidden;
+}
+
+.lightbox {
+	background: rgba(40,40,40, .75);
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: none;
+	z-index: 2000000;
+	overflow-y: scroll;
+}
+
+.lightbox-container {
+	margin: auto;
+    display: table;
+    z-index: 2000001;
+    padding: 3%;
+}
