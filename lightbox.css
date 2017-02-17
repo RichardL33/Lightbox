@@ -1,13 +1,17 @@
+/* Lightbox CSS Styles */
+
 body,
 html {
 	height: auto;
 }
 
+/* Prevent scrolling on body */
 body {
 	-ms-overflow-y: hidden;
 	    overflow-y: hidden;
 }
 
+/* Overlay */
 .lightbox {
 	background: rgba(40,40,40, .75);
 	height: 100%;
@@ -15,11 +19,12 @@ body {
 	position: fixed;
 	top: 0;
 	left: 0;
-	display: none;
+	display: block;
 	z-index: 2000000;
 	overflow-y: scroll;
 }
 
+/* Overlay Container - Content */
 .lightbox-container {
 	margin: auto;
     display: table;
